@@ -13,13 +13,13 @@ event_fields:
     standard_type: TBD
     name: RuleName
     type: string
-    description: custom tag mapped to event. i.e ATT&CK technique ID
+    description: 映射到ATT&CK编号(ID)。
     sample_value: T1114
   - standard_name: event_creation_time
     standard_type: TBD
     name: UtcTime
     type: date
-    description: Time in UTC when event was created
+    description: 创建事件的UTC事件
     sample_value: 4/11/18 5:25
   - standard_name: process_guid
     standard_type: TBD
